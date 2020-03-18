@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name: Emfluence Gravity Forms
+Plugin Name: Emfluence GForms
 Description: Send form data to the Emfluence CRM using Gravity Form's Add-on Framework
-version: 0.6.3
+version: 1.0
 Author: Sage Age
 Author URI: https://www.sageagestratgies.com
 License: GPLv3 or later
@@ -27,7 +27,7 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
 
 */
 
-define( 'EMFLUENCE_GFORM_VERSION', '0.6.3' );
+define( 'EMFLUENCE_GFORM_VERSION', '1.0' );
  
 add_action( 'gform_loaded', array( 'Emfluence_Gform_Bootstrap', 'load' ), 5 );
 
