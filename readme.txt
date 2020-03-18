@@ -1,9 +1,9 @@
 === Plugin Name ===
 Plugin Name: Emfluence GForms
 Description: Send form data to the Emfluence CRM using Gravity Form's Add-on Framework
-version: 1.0
+version: 1.1
 Author: Sage Age
-Author URI: https://www.sageagestratgies.com
+Author URI: https://www.sageagestrategies.com/
 License: GPLv3 or later
 Text Domain: emfluence-gform
 Domain Path: /languages
@@ -44,6 +44,9 @@ You can send a debug email for all submissions that contain logging information 
 Select "Send a debug email" to enable this feature, and enter a valid email under "Debug email address". This will send an email containing logging information for all forms submitted to Emfluence.
 
 == Changelog ==
+
+= 1.1 =
+* found that the incorrect sage age url snuck back in - corrected
 
 = 1.0 =
 * full release!!!

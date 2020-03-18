@@ -2,9 +2,9 @@
 /*
 Plugin Name: Emfluence GForms
 Description: Send form data to the Emfluence CRM using Gravity Form's Add-on Framework
-version: 1.0
+version: 1.1
 Author: Sage Age
-Author URI: https://www.sageagestratgies.com
+Author URI: https://www.sageagestrategies.com/
 License: GPLv3 or later
 Text Domain: emfluence-gform
 Domain Path: /languages
@@ -27,7 +27,7 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
 
 */
 
-define( 'EMFLUENCE_GFORM_VERSION', '1.0' );
+define( 'EMFLUENCE_GFORM_VERSION', '1.1' );
  
 add_action( 'gform_loaded', array( 'Emfluence_Gform_Bootstrap', 'load' ), 5 );
 
