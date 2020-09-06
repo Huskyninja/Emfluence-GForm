@@ -1,9 +1,9 @@
 === Plugin Name ===
 Plugin Name: Emfluence GForms
 Description: Send form data to the Emfluence CRM using Gravity Form's Add-on Framework
-version: 1.1
-Author: Sage Age
-Author URI: https://www.sageagestrategies.com/
+version: 1.2
+Author: Husky Ninja
+Author URI: https://www.husky.ninja
 License: GPLv3 or later
 Text Domain: emfluence-gform
 Domain Path: /languages
@@ -30,10 +30,10 @@ To map the form fields, select the relevant Field (to be mapped for Emfluence) t
 
 The form field must be of the correct type. The mapping is as follows:
 
-First Name -> textfield
-Last Name -> textfield
-Email Address -> email
-Phone -> phone
+First Name -> name, text or hidden
+Last Name -> name, text or hidden
+Email Address -> email or hidden
+Phone -> phone or hidden
 
 So make sure when creating your form that you use the correct form field types for the Emfluence field mapping.
 
@@ -44,6 +44,12 @@ You can send a debug email for all submissions that contain logging information 
 Select "Send a debug email" to enable this feature, and enter a valid email under "Debug email address". This will send an email containing logging information for all forms submitted to Emfluence.
 
 == Changelog ==
+
+= 1.2 =
+* restricted phone field mapping to phone or hidden
+* finally fixed scripts and styles
+* updated author url now that sageage no longer supports the plugin
+* added placeholder file in languages directory
 
 = 1.1 =
 * found that the incorrect sage age url snuck back in - corrected

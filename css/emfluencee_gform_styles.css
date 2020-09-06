@@ -1,0 +1,14 @@
+/* placeholder for css */
+
+.gaddon-text {
+	min-width: 50%;
+}
+
+ul.instruction {
+	list-style: disc;
+	margin-left: 30px;
+}
+
+ul.instruction li {
+	margin-bottom: 0;
+}
